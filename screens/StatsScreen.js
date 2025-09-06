@@ -1,22 +1,8 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { Text } from 'react-native';
 
-export default function StatsScreen() {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.text}>Stats Screen</Text>
-    </View>
-  );
-}
+const StatsScreen = () => {
+  return <Text>Stats Screen</Text>;
+};
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#ffffff',
-  },
-  text: {
-    fontSize: 18,
-  },
-});
+export default StatsScreen;
